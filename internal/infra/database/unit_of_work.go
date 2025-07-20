@@ -6,7 +6,7 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/pedrolucaspalma/go-template/internal/application/interfaces"
-	"github.com/pedrolucaspalma/go-template/internal/infra/repositories"
+	"github.com/pedrolucaspalma/go-template/internal/infra/database/repositories"
 )
 
 type pgUoW struct {
